@@ -1,0 +1,900 @@
+body, html{
+    height: 100%;
+    display: block;
+}
+
+
+/**START ONE CSS**/
+section.one{
+    display: block;
+    background: url(../images/background.png) no-repeat center center ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+section.one .both{
+    display: flex;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+    padding-top: 25px;
+}
+
+section.one .both .logo{
+    width: 40%;
+    height: auto;
+}
+
+section.one .both-menu{
+    display: flex;
+    width: 60%;
+    height: auto;
+    justify-content: space-around;
+}
+
+section.one .both-menu .menu{
+    align-self: center;
+}
+
+section.one .both-menu .menu ul a li{
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px 0;
+}
+
+section.one .both-menu .menu ul li:hover{
+    color: #fce38a;
+    transition: 0.2s linear 0s;
+    text-decoration: underline;
+}
+
+
+section.one .both-menu .icons{
+    align-self: center;
+}
+
+section.one .both-menu .icons .icon-one  {
+    margin-right: 20px;
+}
+
+
+section.one .text-one{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+section.one .text-two{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+section.one .line{
+    border: 2px solid white;
+    width: 50px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+section.one .buton{
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+section.one .buton a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 3px solid white;
+    padding: 10px;
+    width: 130px;
+    transition: 0.2s linear 0s;
+}
+
+section.one .buton a:hover{
+    border: 3px solid #fce38a;
+    color: #fce38a;
+}
+/**END ONE CSS**/
+
+
+/**START TWO CSS**/
+section.two{
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+section.two .all{
+    display: block;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+}
+
+section.two .all .block .what {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+section.two .all .block .story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.two .all .block .line{
+    border-bottom: 2px solid #f38181;
+    width: 65px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+section.two .all .block .lorem{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align-last: center;
+    line-height: 25px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+section.two .all .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+section.two .all .flex .two1 img{
+    background: #95e1d3;
+}
+
+section.two .all .flex .two2 img{
+    background: black;
+}
+
+section.two .all .flex .two3 img{
+    background: black;
+}
+/**END TWO CSS**/
+
+
+
+/**START THREE CSS**/
+section.three{
+    width: 100%;
+    height: 170px;
+    background-color: #95e1d3;
+}
+
+section.three .flex{
+    max-width: 840px;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+section.three .flex .block{
+    display: block;
+    height: 170px;
+    width: 168px;
+    border-left: 0.3px solid #b5eae0;
+}
+
+section.three .flex .block:nth-of-type(5){
+    border-right: 0.3px solid #b5eae0;
+}
+
+section.three .flex .block .top{
+    margin-top: 20%;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+section.three .flex .block .bottom{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+/**END THREE CSS**/
+
+
+
+
+/**START FOUR CSS**/
+section.four{
+    width: 100%;
+    height: 500px;
+    display: block;
+    background: white;
+}
+
+section.four .all{
+    display: block;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+}
+
+section.four .all .block .what {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+section.four .all .block .story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.four .all .block .line{
+    border-bottom: 2px solid #f38181;
+    width: 65px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+section.four .top{
+    display: flex;
+    width: 1140px;
+    max-width: 840px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+section.four .top .item{
+    display: flex;
+    width: 260px;
+    height: 60px;
+}
+
+section.four .top .item .icon{
+    padding-right: 20px; 
+}
+
+section.four .top .item .texts{
+    display: block;
+}
+
+section.four .top .item .texts .p1{
+    color: rgb(51, 51, 51);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section.four .top .item .texts .p2{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+section.four .line-grey{
+    border-bottom: 1px solid #d6d2d2;
+    width: 1140px;
+    max-width: 940px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section.four .bottom{
+    display: flex;
+    width: 1140px;
+    max-width: 840px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+section.four .bottom .item{
+    display: flex;
+    width: 260px;
+    height: 60px;
+}
+
+section.four .bottom .item .icon{
+    padding-right: 20px; 
+}
+
+section.four .bottom .item .texts{
+    display: block;
+}
+
+section.four .bottom .item .texts .p1{
+    color: rgb(51, 51, 51);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section.four .bottom .item .texts .p2{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+/**END FOUR CSS**/
+
+
+
+/**START FIVE CSS**/
+section.five{
+    width: 100%;
+    height: 670px;
+    background: url(../images/background2.png) no-repeat center center ;
+    background-size: cover;
+    margin-bottom: 50px;
+    clear: both;
+    display: block;
+}
+
+section.five .all{
+    display: block;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+
+}
+
+section.five .all .block .what {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+section.five .all .block .story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.five .all .block .line{
+    border-bottom: 3px solid #f38181;
+    width: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+section.five .all .block .lorem{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align-last: center;
+    line-height: 25px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+section.five .texts .iphone{
+    width: 400px;
+    height: 470px;
+    background: url(../images/iphone.png) no-repeat center center ;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 330px;
+}
+
+
+/**END FIVE CSS**/
+
+
+/**START SIX CSS**/
+section.six{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+section.six .all{
+    display: block;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+
+}
+
+section.six .all .block .what {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+section.six .all .block .story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.six .all .block .line{
+    border-bottom: 3px solid #f38181;
+    width: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+section.six .all .block .lorem{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align-last: center;
+    line-height: 25px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+section.six .both{
+    width: 1140px;
+    max-width: 840px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+section.six .both .right{
+    display: block;
+    width: 400px;
+    height: auto;
+}
+
+section.six .both .right .thriple{
+    padding: 5px;
+    display: flex;
+    border: 1px solid #dddddd;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+section.six .photography{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    font-size: 16px;
+    align-self: center;
+    font-weight: 500;
+    padding-right: 150px;
+}
+section.six .both .right .thriple .collapse{
+    align-self: center;
+}
+
+section.six .both .right .open-collapse{
+    padding: 10px;
+    color: #999999;
+    border: 1px solid #dddddd;
+    height: 110px;
+    margin-bottom: 10px;
+    border-top: 1px solid white;
+}
+
+section.six .both .right .thriple:nth-of-type(3){
+    margin-bottom: 10px;
+}
+
+section.six .right .panel-default .panel-heading{
+    background-color: #fff;
+}
+
+section.six .right span{
+    padding-left: 20px;
+}
+/**END SIX CSS**/
+
+
+/**START SEVEN CSS**/
+section.seven{
+    width: 100%;
+    height: 200px;
+    background: #f8f8f8;
+    display: flex;
+    align-self: center;
+    margin-top: 60px;
+}
+
+section.seven .beige{
+    margin: auto;
+    max-width: 840px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.seven .beige img{
+    align-self: center;
+}
+
+section.seven .beige .texts{
+    max-width: 550px;
+    align-self: center;
+    line-height: 25px;
+}
+
+section.seven .beige .texts .line-text{
+    display: flex;
+    width: 118px;
+    max-width: 120px;
+    margin-top: 10px;
+}
+
+section.seven .beige .texts .long{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+section.seven .beige .texts .line-text .jon {
+    width: 100px;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+}
+
+section.seven .beige .texts .line-text .line{
+    border-bottom: 2px solid #f38181;
+    width: 65px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+section.seven .mySlides{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 840px;
+}
+
+
+
+
+
+
+/**END SEVEN CSS**/
+
+
+
+
+
+
+/**START EIGHT CSS**/
+section.eight{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+section.eight .all{
+    display: block;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+
+}
+
+section.eight .all .block .what {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+section.eight .all .block .story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.eight .all .block .line{
+    border-bottom: 3px solid #f38181;
+    width: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+section.eight .all .block .lorem{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align-last: center;
+    line-height: 25px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+section.eight .pics{
+    width: 840px;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    display: flex;
+}
+
+
+section.eight .pics .pic{
+    display: block;
+    align-self: center;
+    text-align: center;
+}
+
+section.eight .pics .pic p{
+    margin-top: 15px;
+}
+
+section.eight .pics .pic .roboto{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.eight .pics .pic .monst{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+}
+
+section.eight .pics .pic .sol{
+    background: url(../images/sol.png) no-repeat center center ;
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+section.eight .pics .pic .orta{
+    background: url(../images/orta.png) no-repeat center center ;
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+section.eight .pics .pic .sag{
+    background: url(../images/sag.png) no-repeat center center ;
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    
+}
+/**END EIGHT CSS**/
+
+
+
+
+
+/**START NINE CSS**/
+section.nine{
+    width: 100%;
+    height: 160px;
+    background: #f8f8f8;
+    display: flex;
+    margin-top: 70px;
+}
+
+section.nine .pics{
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    width: 840px;
+    max-width: 1140px;;
+    
+}
+/**END NINE CSS**/
+
+
+
+
+
+
+/**START TEN CSS**/
+section.ten{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+section.ten .all{
+    display: block;
+    max-width: 840px;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+
+}
+
+section.ten .all .block .what {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+section.ten .all .block .story{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.ten .all .block .line{
+    border-bottom: 3px solid #f38181;
+    width: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+section.ten .all .block .lorem{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align-last: center;
+    line-height: 25px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+section.ten .pics{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+}
+
+section.ten .pics .pic {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+section.ten .pics .pic .alt1{
+    background: url(../images/alt1.png) no-repeat bottom;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+section.ten .pics .pic .alt3{
+    background: url(../images/alt3.png) no-repeat center center ;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+
+section.ten .pics .pic .alt2{
+    background: url(../images/alt2.png) no-repeat bottom;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+section.ten .pics .pic .alt4{
+    background: url(../images/alt4.png) no-repeat center center ;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+
+section.ten .pics .pic-long {
+    width: 100%;
+    height: 500px;
+}
+
+section.ten .pics .pic-long .alt5{
+    background: url(../images/alt5.png) no-repeat center center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+
+section.ten .pics .pic .alt6{
+    background: url(../images/alt6.png) no-repeat ;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+section.ten .pics .pic .alt7{
+    background: url(../images/alt7.png) no-repeat  ;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+/**END TEN CSS**/
+
+
+
+/**START RESPONSIVE ONE**/
+@media only screen and (max-width: 640px) {
+    section.one {
+        background-color:rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    section.one .both{
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    
+    section.one .both .both-menu{
+        display: block;
+        background-color:rgba(0, 0, 0, 0.753);
+    }
+}
+/**END RESPONSIVE ONE**/
